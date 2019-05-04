@@ -1,1 +1,2 @@
+node app.jsnode app.js
 node app.js
