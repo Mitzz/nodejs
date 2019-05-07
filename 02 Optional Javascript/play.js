@@ -6,3 +6,9 @@ const person = {
 }
 
 person.greet()
+
+const hobbies = ["Sports", "Cooking"]
+
+const copiedPerson = {...person}
+person.name = "mitz"
+console.log("Copied Person using spread operator", copiedPerson)
