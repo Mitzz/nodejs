@@ -4,7 +4,7 @@ const fs = require('fs')
 const server = http.createServer((req, res) => {
     const url = req.url;
     const method = req.method;
-    console.log('Url Received', url);
+    console.log('Method:', method,', Url:', url);
     if(url === '/'){
         res.setHeader('Content-type', 'text/html');
         res.write('<html>');
