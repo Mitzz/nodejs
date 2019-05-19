@@ -6,3 +6,5 @@ npm start
 npm start-server
 npm run start-server
 npm install nodemon --save-dev
+nodemon app.js
+npm start
