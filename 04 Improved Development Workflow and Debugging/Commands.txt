@@ -3,3 +3,5 @@ node app.js
 node app.js
 npm init
 npm start
+npm start-server
+npm run start-server
