@@ -5,22 +5,24 @@ const directories = ['C:\\work\\Company\\node\\udemy\\NodeJsGraphQL\\notes\\Lect
     
 function f1(){
     console.log('f1');
-    const content = readFile("C:\\work\\Company\\node\\udemy\\NodeJsGraphQL\\git-repo\\05 Working with Express.js\\delete path.txt");
-    console.log(content);
+    const deletePath = "C:\\work\\Company\\node\\udemy\\NodeJsGraphQL\\git-repo\\05 Working with Express.js\\delete path.txt";
+    const content = readFile(deletePath);
+    //console.log(content);
     content.map(e => {
         const regExp = new RegExp(e);
         directories.map(directory => fromDir(directory, regExp, fileFound));
     });
+    writeData(deletePath, [])
 }
 
 function fileFound(filename){
     // console.log('-- found: ',filename);
-    // fs.unlink();
+    // fs.unlink(filename);
     notesHtmlProcessing(filename);
 }
 
 function notesHtmlProcessing(filename){
-    const notesPath = path.join(path.dirname(filename), 'notes_mod.html');
+    const notesPath = path.join(path.dirname(filename), 'notes.html');
     if(!fs.existsSync(notesPath)) return;
     console.log('-- HTML Parent Directory: ', notesPath);
     var name = path.basename(filename)

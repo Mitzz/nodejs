@@ -13,6 +13,10 @@ router.post('/delete-image', (req, res) => {
         if (err) throw err;
         console.log('Saved!');
     });
+    fs.appendFile('alldeleteimagepath.txt', imagePath + "\n", function (err) {
+        if (err) throw err;
+        console.log('Saved!');
+    });
     
     res.send("Response");
 });
