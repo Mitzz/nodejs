@@ -5,7 +5,7 @@ const directories = ['C:\\work\\Company\\node\\udemy\\NodeJsGraphQL\\notes\\Lect
     
 function f1(){
     console.log('f1');
-    const deletePath = "C:\\work\\Company\\node\\udemy\\NodeJsGraphQL\\git-repo\\05 Working with Express.js\\delete path.txt";
+    const deletePath = "C:\\work\\Company\\node\\udemy\\NodeJsGraphQL\\git-repo\\Notes\\delete path.txt";
     const content = readFile(deletePath);
     //console.log(content);
     content.map(e => {
