@@ -7,4 +7,4 @@ CREATE TABLE `node`.`products` (
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC));
 
-INSERT INTO `node`.`products` (`title`, `price`, `description`, `imageUrl`) VALUES ('A Book', '12.99', 'This is an amazing book', 'lsdf');
+INSERT INTO `node`.`products` (`title`, `price`, `description`, `imageUrl`) VALUES ('A Book', '12.99', 'This is an amazing book', 'https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg');
