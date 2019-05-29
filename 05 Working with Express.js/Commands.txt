@@ -23,3 +23,7 @@ npm install --save mysql2
 npm start
 npm start
 npm install --save sequelize
+npm start
+npm start
+npm install --save mongodb
+npm start
