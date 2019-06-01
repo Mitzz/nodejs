@@ -40,3 +40,4 @@ npm start
 npm install --save csurf
 npm start
 npm install --save connect-flash
+npm start
