@@ -44,3 +44,5 @@ npm start
 npm start
 npm install --save nodemailer nodemailer-sendgrid-transport
 npm start
+npm install --save express-validator
+npm start
