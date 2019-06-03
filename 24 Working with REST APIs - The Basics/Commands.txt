@@ -1,0 +1,26 @@
+npm install nodemon --save-dev
+npm startnpm install --save express
+npm start
+npm start
+npm install --save body-parser
+npm start
+npm start
+npm install --save ejs pug express-handlebars
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm init
+npm install --save express
+npm install --save-dev nodemon
+npm init
+npm install --save express
+npm install --save body-parser
+npm start
