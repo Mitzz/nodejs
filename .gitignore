@@ -4,28 +4,15 @@
 
 03 Understanding the Basics/deletedImage\.txt
 
-04 Improved Development Workflow and Debugging/node_modules/
-
-04 Improved Development Workflow and Debugging/package-lock\.json
-
 05 Working with Express\.js/node_modules/
 
 05 Working with Express\.js/package-lock\.json
 
 05 Working with Express\.js/delete path\.txt
 
-Notes/node_modules/
-
-Notes/package-lock\.json
-
 05 Working with Express\.js/images/
 
 05 Working with Express\.js/data/invoices/
 
-24 Working with REST APIs - The Basics/node_modules/
-
-24 Working with REST APIs - The Basics/package-lock\.json
-
-25 Working with REST APIs - The Practical Application/frontend/package-lock\.json
-
-25 Working with REST APIs - The Practical Application/backend/package-lock\.json
+**/package-lock\.json
+**/node_modules/
